@@ -1,0 +1,21 @@
+.ExperienceContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0;   
+    align-items: center;
+}
+.ExperienceContainer > h1 {
+    padding-bottom: 20px;
+}
+.ExperienceContainer__info{
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    z-index: 1000px;
+    background-size: cover;
+    height: 300px;
+}

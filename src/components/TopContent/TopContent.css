@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.Topcontent{
+    color: #fff;
+    
+}
+.Topcontent__container{
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
+}
+.Topcontent__container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+.Topcontent__container > a > button{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.Topcontent__container > h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.topcontent__downloadbutton{
+    background-color: orangered;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.topcontent__downloadbutton:hover{
+color: orangered;
+background-color: white;
+font-weight: 600;
+}
+.topcontent__workbutton{
+    color: #fff;
+    border:1px solid white !important;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 9px 49px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.topcontent__workbutton:hover{
+color: black;
+background-color: #fff;
+font-weight: 600;
+}
